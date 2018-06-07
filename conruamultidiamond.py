@@ -1,4 +1,4 @@
-from turtle import *
+from turtle import*
 pencolor("red")
 for i in range(4):
     for i in range(2):
