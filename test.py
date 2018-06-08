@@ -9,18 +9,18 @@
 # menu = ["trung"]
 # print(menu)
 menu = ["trung","rau","pho","com rang"]
-# numbers = ["1.","2.","3."]
-# no = 1
-# # menu.append("bun dau")
-# # print(*menu, sep=", ")
-# # menu.insert(0, "so huyet")
-# # print(*menu, sep=", ")
-# for food in menu:
-#     print(no,food, sep=".")
-#     no = no + 1
-# print(menu)
-# menu.pop()
-# menu.remove("pho")
+numbers = ["1.","2.","3."]
+no = 1
+menu.append("bun dau")
+print(*menu, sep=", ")
+menu.insert(0, "so huyet")
+print(*menu, sep=", ")
+for food in menu:
+    print(no,food, sep=".")
+    no = no + 1
+print(menu)
+menu.pop()
+menu.remove("pho")
 
 # print(menu)
 # i = int(input("enter position: "))
